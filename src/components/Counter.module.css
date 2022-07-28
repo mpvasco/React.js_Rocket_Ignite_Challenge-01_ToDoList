@@ -1,0 +1,34 @@
+.taskCounterBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: calc(1.18rem + 1.5rem);
+  width: 46rem;
+  margin-top: calc(1.625rem + 4rem);
+  padding-bottom: 1.5rem;
+  
+}
+
+.taskCounterBoxCriadas strong {
+  color: var(--blue);
+}
+
+.taskCounterBoxCriadas span {
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.taskCounterBoxConcluidas strong {
+  color: var(--purple);
+}
+
+.taskCounterBoxConcluidas span {
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}

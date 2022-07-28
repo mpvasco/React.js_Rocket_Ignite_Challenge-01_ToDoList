@@ -1,0 +1,63 @@
+.taskListed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: var(--gray-500);
+  width: 46rem;
+  height: 4.5rem;
+  padding: 1rem 1rem 0.75rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  gap: 0.75rem;
+  
+
+}
+
+.taskListed span {
+  width: 39.5rem;
+  height: 2.5rem;
+  color: var(--gray-100);
+  line-height: 140%;
+  text-align: start;
+  justify-content: center;
+  padding: 2px;
+  font-size: 0.875;
+}
+.checked {
+  text-decoration: line-through;
+}
+
+.checkCircle  {
+  background-color: var(--purple-dark);
+  fill: var(--purple-dark);
+  border-radius: 150px;
+  padding: 0px;
+  border: 0px;
+  color: var(--gray-100);
+}
+
+.checkCircle:hover  {
+  opacity: 0.7;
+}
+
+.circle {
+  color: var(--blue);
+}
+
+.circle:hover {
+  opacity: 0.7;
+}
+
+.trash {
+  color: var(--gray-300);
+}
+
+.trash:hover {
+  background-color: var(--gray-400);
+  border-radius: 4px;
+  color: var(--danger);
+}
+
+
+

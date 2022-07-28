@@ -1,0 +1,16 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  
+}
+
+.header img {
+  height: 3rem;
+  width: 7.875rem;
+  margin-top: 4.5rem;
+}
