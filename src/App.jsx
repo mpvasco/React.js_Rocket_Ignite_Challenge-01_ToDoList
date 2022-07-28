@@ -12,22 +12,22 @@ function App() {
   const [tasks, setTasks] = useState([
     {
       id: uuidv4(),
-      title: "text goes here 1text t goes here 1text goes here 1xt goes here 1text goes here 1",
+      title: "Study ReactJS",
       isChecked: true
     },
     {
       id:uuidv4(),
-      title: "text goes here 2",
+      title: "Study TypeScript",
       isChecked: false
     },
     {
       id: uuidv4(),
-      title: "text goes here 3",
+      title: "Start Project 02",
       isChecked: false
     },
     {
       id: uuidv4(),
-      title: "text goes here 4",
+      title: "Rest 2 hours",
       isChecked: true
     },
   ])
